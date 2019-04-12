@@ -11,8 +11,7 @@ app.get('/api/test', (req, res) => {
 });
 app.get('/api/data', (req, res) =>{
 	let baseUrl =  "https://cloud.iexapis.com/beta/stock/market/list/mostactive";
-	let totallySecureKey = "pk_8df50afcae24418c86cb21e7443e0f05";
-	//https://cloud.iexapis.com/beta//stock/market/list/mostactive?token=pk_8df50afcae24418c86cb21e7443e0f05
+	let totallySecureKey = "pk_8badf50afcae24418c86cb21e7443e0f05";
 	request({
 		url: baseUrl,
 		qs: { token: totallySecureKey },
